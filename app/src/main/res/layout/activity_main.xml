@@ -8,7 +8,7 @@
     android:background="#F3F4F5"
     tools:context=".MainActivity">
 
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -50,9 +50,8 @@
         android:layout_height="wrap_content"
         android:paddingLeft="26dp"
         android:paddingRight="26dp"
-        android:paddingtop="8dp"
         android:paddingBottom="41dp"
-        android:background="FFFFFF">
+        android:background="#FFFFFF">
 
     <EditText
         android:layout_width="match_parent"
@@ -70,6 +69,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingRight="26dp"
+        android:paddingLeft="26dp"
         android:orientation="vertical"
         android:background="#777777">
 
@@ -85,10 +86,12 @@
 </LinearLayout>
 
 <LinearLayout
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:orientation="vertical"
-android:background="#777777"/>
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="26dp"
+    android:paddingLeft="26dp"
+    android:orientation="vertical"
+    android:background="#777777">
 
     <TextView
         android:layout_width="match_parent"
@@ -101,3 +104,54 @@ android:background="#777777"/>
         android:inputType="textPassword"/>
 
 </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#777777"
+        android:paddingRight="26dp"
+        android:paddingLeft="26dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="근무가능 시간"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="특수문자를 입력하세요"
+        android:inputType="textPassword"/>
+
+<RadioGroup
+    android:layout_marginTop="27dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="풀타임"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="47dp"
+        android:text="파트타입"/>
+
+</RadioGroup>
+
+        <Button
+            android:layout_marginTop="56dp"
+            android:layout_marginBottom="31dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="다음"
+            android:textSize="20sp"
+            android:textColor="#777777"/>
+
+</LinearLayout>
+    /</LinearLayout>

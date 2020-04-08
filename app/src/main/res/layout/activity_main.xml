@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -52,7 +52,7 @@
         android:paddingRight="26dp"
         android:paddingtop="8dp"
         android:paddingBottom="41dp"
-        android:background="FFFFFF"/>
+        android:background="FFFFFF">
 
     <EditText
         android:layout_width="match_parent"
@@ -65,8 +65,39 @@
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:text="중북확인"/>
+    </FrameLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#777777">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="특수문자를 입력하세요"
+        android:inputType="textPassword"/>
+</LinearLayout>
 
-</FrameLayout>
-    </LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:background="#777777"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COFIRM PASSWORD"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="특수문자를 입력하세요"
+        android:inputType="textPassword"/>
+
+</LinearLayout>
